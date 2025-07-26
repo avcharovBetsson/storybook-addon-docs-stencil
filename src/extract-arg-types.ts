@@ -1,5 +1,5 @@
-import { ArgTypes, InputType, SBType } from '@storybook/types';
-import { logger } from '@storybook/client-logger';
+import { ArgTypes, InputType, SBType } from 'storybook/internal/types';
+import { logger } from 'storybook/internal/client-logger';
 
 import {
   ExtractArgTypesOptions,

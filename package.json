@@ -36,11 +36,6 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@storybook/client-logger": "^8.4.7",
-    "@storybook/manager": "^8.4.7",
-    "@storybook/preview": "^8.4.7",
-    "@storybook/preview-api": "^8.4.7",
-    "@storybook/types": "^8.4.7",
     "@types/eslint__js": "^8.42.3",
     "eslint": "^9.18.0",
     "husky": "^9.1.7",
@@ -52,8 +47,7 @@
     "vite": "^6.0.7"
   },
   "peerDependencies": {
-    "@storybook/client-logger": ">= 8.4",
-    "@storybook/preview-api": ">= 8.4"
+    "storybook": "^9.0.18"
   },
   "files": [
     "dist/**/*",

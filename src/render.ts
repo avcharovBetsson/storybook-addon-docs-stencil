@@ -1,5 +1,5 @@
-import type { Args, ArgsStoryFn, Renderer } from '@storybook/types';
-import { useEffect } from '@storybook/preview-api';
+import type { Args, ArgsStoryFn, Renderer } from 'storybook/internal/types';
+import { useEffect } from 'storybook/preview-api';
 import { RenderOptions } from './types';
 
 type Handlers = [string, EventListenerOrEventListenerObject][];
